@@ -112,12 +112,13 @@
 
     .tablaFija:hover{
        cursor:pointer;
-       filter:brightness(1.1)
+       
     }
 
     .imagenFija{
         width:8vw;
         height: 18.4vh;
+        filter: grayscale(100%);
     }
     
     #campeon {
@@ -195,12 +196,13 @@
 
     .tablaFija:hover{
        cursor:pointer;
-       filter:brightness(1.1)
+    
     }
 
     .imagenFija{
         width:10vw;
         height: 18vh;
+        filter: grayscale(100%);
     }
     
     #campeon {
@@ -278,12 +280,13 @@
 
     .tablaFija:hover{
        cursor:pointer;
-       filter:brightness(1.1)
+       
     }
 
     .imagenFija{
         width:12vw;
         height: 17vh;
+        filter: grayscale(100%);
     }
     
     #campeon {
@@ -361,12 +364,12 @@
 
     .tablaFija:hover{
        cursor:pointer;
-       filter:brightness(1.1)
     }
 
     .imagenFija{
         width:15vw;
         height: 14vh;
+        filter: grayscale(100%);
     }
     
     #campeon {
