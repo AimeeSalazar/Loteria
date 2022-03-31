@@ -1,0 +1,447 @@
+
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .title{
+    background-color: rgb(70, 54, 85);
+    color: white;
+    font-size:4em;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-weight: 500;
+    width:97vw;
+  }
+
+  .instrucciones{
+    color: rgb(70, 54, 85);
+    font-size: 1.5em;
+    margin-bottom: 4vh;
+    width: 97vw;
+  }
+  
+  #campeon {
+      position:absolute;
+      top:23vh;
+      left: 68vw;
+      width: 24vw;
+      height: 48vh;
+      display:none;
+  }
+
+   #cartaRandom{
+       position:relative;
+       left:77vw;
+       top:57vh;
+       font-size:1em;
+       display:none;  
+   }
+  
+   .container{
+     position:absolute;
+     top: 80vh;
+     left:13vw;
+     width:70vw;
+   }
+
+   .container:hover{
+      cursor:pointer;
+      filter:brightness(1.1);
+      
+   }
+    
+   .tablaFija{
+       position:absolute;
+       display:grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr 1fr;
+       gap:4px; 
+       left:13vw;
+       top: 20vh;
+   }
+
+   .tablaFija:hover{
+      cursor:pointer;
+      filter:brightness(1.1)
+   }
+
+
+   .imagenFija{
+       width:17vw;
+       height: 14vh;
+   }
+   .row { 
+      height:14.5vh;
+      line-height:1em;
+    }
+    
+    .box {
+      display:inline-block;
+      width:17.5vw;
+      height: 14vh;
+      height:auto;
+      box-sizing:border-box;
+    }
+  
+    .imageCampeon {
+      width:17vw;
+      height: 14vh;
+      filter: grayscale(0%) !important;
+    }
+   
+}
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px){
+    .title{
+      background-color: rgb(70, 54, 85);
+      color: white;
+      font-size:4em;
+      margin-bottom: 1vh;
+      text-align: center;
+      font-weight: 500;
+      width:97vw;
+    }
+  
+    .instrucciones{
+      color: rgb(70, 54, 85);
+      font-size: 2em;
+      margin-bottom: 4vh;
+      width: 95vw;
+    }
+    
+    #campeon {
+        position:absolute;
+        top:23vh;
+        left: 68vw;
+        width: 24vw;
+        height: 48vh;
+        display:none;
+    }
+  
+     #cartaRandom{
+         position:relative;
+         left:77vw;
+         top:57vh;
+         font-size:1em;
+         display:none;  
+     }
+    
+     .container{
+       position:absolute;
+       top: 23.1vh;
+       left:52vw;
+       width:70vw;
+     }
+
+     .container:hover{
+        cursor:pointer;
+        filter:brightness(1.1);
+        
+     }
+      
+     .tablaFija{
+         position:absolute;
+         display:grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr;
+         gap:8px; 
+         left:7vw;
+         top: 23vh;
+     }
+
+     .tablaFija:hover{
+        cursor:pointer;
+        filter:brightness(1.1)
+     }
+
+
+     .imagenFija{
+         width:9vw;
+         height: 17.6vh;
+     }
+     .row { 
+        height:18vh;
+        line-height:1em;
+      }
+      
+      .box {
+        display:inline-block;
+        width:9.5vw;
+        height: 14vh;
+        height:auto;
+        box-sizing:border-box;
+      }
+    
+      .imageCampeon {
+        width:9vw;
+        height: 17.6vh;
+        filter: grayscale(0%) !important;
+      }
+     
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1439px){
+    .title{
+      background-color: rgb(70, 54, 85);
+      color: white;
+      font-size:5em;
+      margin-bottom: 1vh;
+      text-align: center;
+      font-weight: 500;
+      width:97vw;
+    }
+  
+    .instrucciones{
+      color: rgb(70, 54, 85);
+      font-size: 2em;
+      margin-bottom: 4vh;
+      width: 95vw;
+    }
+    
+    #campeon {
+        position:absolute;
+        top:23vh;
+        left: 68vw;
+        width: 24vw;
+        height: 48vh;
+        display:none;
+    }
+  
+     #cartaRandom{
+         position:relative;
+         left:77vw;
+         top:57vh;
+         font-size:1em;
+         display:none;  
+     }
+    
+     .container{
+       position:absolute;
+       top: 23.1vh;
+       left:52vw;
+       width:70vw;
+     }
+
+     .container:hover{
+        cursor:pointer;
+        filter:brightness(1.1);
+        
+     }
+      
+     .tablaFija{
+         position:absolute;
+         display:grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr;
+         gap:8px; 
+         left:7vw;
+         top: 23vh;
+     }
+
+     .tablaFija:hover{
+        cursor:pointer;
+        filter:brightness(1.1)
+     }
+
+
+     .imagenFija{
+         width:9vw;
+         height: 17.6vh;
+     }
+     .row { 
+        height:18vh;
+        line-height:1em;
+      }
+      
+      .box {
+        display:inline-block;
+        width:9.5vw;
+        height: 14vh;
+        height:auto;
+        box-sizing:border-box;
+      }
+    
+      .imageCampeon {
+        width:9vw;
+        height: 17.6vh;
+        filter: grayscale(0%) !important;
+      }
+     
+  }
+  
+  @media screen and (min-width: 1440px) and (max-width: 1919px){
+    .title{
+      background-color: rgb(70, 54, 85);
+      color: white;
+      font-size:6em;
+      margin-bottom: 1vh;
+      text-align: center;
+      font-weight: 500;
+    }
+  
+    .instrucciones{
+      color: rgb(70, 54, 85);
+      font-size: 2.5em;
+      margin-bottom: 4vh;
+      width: 99vw;
+    }
+    
+    #campeon {
+        position:absolute;
+        top:23vh;
+        left: 68vw;
+        width: 24vw;
+        height: 48vh;
+        display:none;
+    }
+  
+     #cartaRandom{
+         position:relative;
+         left:77vw;
+         top:57vh;
+         font-size:1em;
+         display:none;  
+     }
+    
+     .container{
+       position:absolute;
+       top: 27.1vh;
+       left:50vw;
+       width:70vw;
+     }
+
+     .container:hover{
+        cursor:pointer;
+        filter:brightness(1.1);
+        
+     }
+      
+     .tablaFija{
+         position:absolute;
+         display:grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr;
+         gap:8px; 
+         left:5vw;
+         top: 27vh;
+     }
+
+     .tablaFija:hover{
+        cursor:pointer;
+        filter:brightness(1.1)
+     }
+
+
+     .imagenFija{
+         width:9vw;
+         height: 18vh;
+     }
+     .row { 
+        height:18.3vh;
+        line-height:1em;
+      }
+      
+      .box {
+        display:inline-block;
+        width:9.5vw;
+        height: 14vh;
+        height:auto;
+        box-sizing:border-box;
+      }
+    
+      .imageCampeon {
+        width:9vw;
+        height: 18vh;
+        filter: grayscale(0%) !important;
+      }
+     
+  }
+  
+  @media screen and (min-width: 1920px){
+    .title{
+      background-color: rgb(70, 54, 85);
+      color: white;
+      font-size:6em;
+      margin-bottom: 1vh;
+      text-align: center;
+      font-weight: 500;
+    }
+  
+    .instrucciones{
+      color: rgb(70, 54, 85);
+      font-size: 2.5em;
+      margin-bottom: 4vh;;
+    }
+    
+    #campeon {
+        position:absolute;
+        top:23vh;
+        left: 68vw;
+        width: 24vw;
+        height: 48vh;
+        display:none;
+    }
+  
+     #cartaRandom{
+         position:relative;
+         left:77vw;
+         top:57vh;
+         font-size:1em;
+         display:none;  
+     }
+    
+     .container{
+       position:absolute;
+       top: 22.8vh;
+       left:50vw;
+       width:70vw;
+     }
+
+     .container:hover{
+        cursor:pointer;
+        filter:brightness(1.1);
+        
+     }
+      
+     .tablaFija{
+         position:absolute;
+         display:grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr;
+         gap:8px; 
+         left:5vw;
+     }
+
+     .tablaFija:hover{
+        cursor:pointer;
+        filter:brightness(1.1)
+     }
+
+
+     .imagenFija{
+         width:9vw;
+         height: 18.5vh;
+     }
+     .row { 
+        height:18.9vh;
+        line-height:1em;
+      }
+      
+      .box {
+        display:inline-block;
+        width:9.5vw;
+        height: 14vh;
+        height:auto;
+        box-sizing:border-box;
+      }
+    
+      .imageCampeon {
+        width:9vw;
+        height: 18.5vh;
+        filter: grayscale(0%) !important;
+      }
+     
+  }
+  
+  
+  
+  
+  

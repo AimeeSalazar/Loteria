@@ -1,0 +1,315 @@
+
+/*RESOLUCIONES DE 320, 375, 425, 768, 1024, 1440 y 1920px con un zoom de 100%*/
+
+@media screen and (min-width: 320px) and (max-width: 725px){
+  .title{
+    background-color: rgb(70, 54, 85);
+    color: white;
+    font-size:3em;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .instrucciones{
+    color: rgb(70, 54, 85);
+    font-size: 1.2em;
+    margin-bottom: 1vh;;
+  }
+  
+  #campeon {
+      position:absolute;
+      width: 30vw;
+      height: 20vh;
+  }
+
+   #cartaRandom{
+       position:relative;
+       left:32vw  
+   }
+  
+   .container{
+     position:absolute;
+     top: 40vh;
+     width:95vw;
+   }
+    
+   .row { 
+      height:30vhpx;
+      line-height:1em;
+    }
+    
+    .box {
+      display:inline-block;
+      width:21vw;
+      height: 14vh;
+      height:auto;
+      box-sizing:border-box; 
+    }
+  
+    .imageCampeon {
+      width:20vw;
+      height: 14vh;
+      filter: grayscale(100%);
+    }
+  
+    .imageCampeonSelected {
+      filter: grayscale(0%) !important;
+    }
+  
+}
+
+@media screen and (min-width: 726px) and (max-width: 1023px){
+  .title{
+    background-color: rgb(70, 54, 85);
+    color: white;
+    font-size:3em;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .instrucciones{
+    color: rgb(70, 54, 85);
+    font-size: 1.4em;
+    margin-bottom: 1vh;;
+  }
+  
+  #campeon {
+      position:absolute;
+      left: 72vw;
+      width: 26vw;
+      height: 30vh;
+      top: 16vh;
+  }
+
+   #cartaRandom{
+       position:relative;
+       left:78vw;
+       top:36vh;
+       font-size:1em;  
+   }
+  
+   .container{
+     position:absolute;
+     top: 16vh;
+     width:70vw;
+   }
+    
+   .row { 
+      height:30vhpx;
+      line-height:1em;
+    }
+    
+    .box {
+      display:inline-block;
+      width:17vw;
+      height: 14vh;
+      height:auto;
+      box-sizing:border-box;
+    }
+  
+    .imageCampeon {
+      width:16.5vw;
+      height: 17vh;
+      filter: grayscale(100%);
+    }
+  
+    .imageCampeonSelected {
+      filter: grayscale(0%) !important;
+    }
+  
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+  .title{
+    background-color: rgb(70, 54, 85);
+    color: white;
+    font-size:4em;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .instrucciones{
+    color: rgb(70, 54, 85);
+    font-size: 1.8em;
+    margin-bottom: 1vh;;
+  }
+  
+  #campeon {
+      position:absolute;
+      top:21vh;
+      left: 72vw;
+      width: 26vw;
+      height: 38vh;
+  }
+
+   #cartaRandom{
+       position:relative;
+       left:80vw;
+       top:46vh;
+       font-size:1em;  
+   }
+  
+   .container{
+     position:absolute;
+     top: 20vh;
+     width:70vw;
+     left:3vw;
+   }
+    
+   .row { 
+      height:20vh;
+      line-height:1em;
+    }
+    
+    .box {
+      display:inline-block;
+      width:16vw;
+      height: 14vh;
+      height:auto;
+      box-sizing:border-box;
+    }
+  
+    .imageCampeon {
+      width:15.5vw;
+      height: 19vh;
+      filter: grayscale(100%);
+    }
+  
+    .imageCampeonSelected {
+      filter: grayscale(0%) !important;
+    }
+  
+}
+
+@media screen and (min-width: 1440px)  and (max-width: 1919px){
+  .title{
+    background-color: rgb(70, 54, 85);
+    color: white;
+    font-size:5em;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .instrucciones{
+    color: rgb(70, 54, 85);
+    font-size: 2.1em;
+    margin-bottom: 1vh;;
+  }
+  
+  #campeon {
+      position:absolute;
+      top:20vh;
+      left: 68vw;
+      width: 24vw;
+      height: 48vh;
+  }
+
+   #cartaRandom{
+       position:relative;
+       left:77vw;
+       top:55vh;
+       font-size:1em;  
+   }
+  
+   .container{
+     position:absolute;
+     top: 20vh;
+     left:15vw;
+     width:70vw;
+   }
+    
+   .row { 
+      height:30vhpx;
+      line-height:1em;
+    }
+    
+    .box {
+      display:inline-block;
+      width:10.5vw;
+      height: 14vh;
+      height:auto;
+      box-sizing:border-box;
+    }
+  
+    .imageCampeon {
+      width:10vw;
+      height: 19.5vh;
+      filter: grayscale(100%);
+    }
+  
+    .imageCampeonSelected {
+      filter: grayscale(0%) !important;
+    }
+  
+}
+
+@media screen and (min-width: 1920px){
+  .title{
+    background-color: rgb(70, 54, 85);
+    color: white;
+    font-size:6em;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .instrucciones{
+    color: rgb(70, 54, 85);
+    font-size: 2.5em;
+    margin-bottom: 1vh;;
+  }
+  
+  #campeon {
+      position:absolute;
+      top:23vh;
+      left: 68vw;
+      width: 20vw;
+      height: 48vh;
+  }
+
+   #cartaRandom{
+       position:relative;
+       left:75vw;
+       top:55vh;
+       font-size:1em;  
+   }
+  
+   .container{
+     position:absolute;
+     top: 20vh;
+     left:15vw;
+     width:70vw;
+   }
+    
+   .row { 
+      height:30vhpx;
+      line-height:1em;
+    }
+    
+    .box {
+      display:inline-block;
+      width:10.5vw;
+      height: 14vh;
+      height:auto;
+      box-sizing:border-box;
+    }
+  
+    .imageCampeon {
+      width:10vw;
+      height: 18.5vh;
+      filter: grayscale(100%);
+    }
+  
+    .imageCampeonSelected {
+      filter: grayscale(0%) !important;
+    }
+  
+}
+
+
+
+
